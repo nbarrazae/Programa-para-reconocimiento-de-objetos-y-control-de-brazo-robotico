@@ -27,7 +27,7 @@ Algunas de las funcionalidades que incluye la plataforma:
 
 Python >= 2.8
 
-## Installation
+## Instalación
 
 ```bash
 pip install opencv-python

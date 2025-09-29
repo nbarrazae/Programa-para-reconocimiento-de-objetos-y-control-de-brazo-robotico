@@ -1,5 +1,5 @@
-# Practica 1
-Proyecto realizado para aprobar la Practica Profesional 1.
+# Práctica 1
+Proyecto realizado para aprobar la Práctica Profesional 1.
 
 ## Resumen del Proyecto
 
@@ -19,7 +19,7 @@ Algunas de las funcionalidades que incluye la plataforma:
 ## Tecnologías
 
 * Python
-* Tkinter
+* PySimpleGUI
 * Opencv
 * PySerial
 
@@ -30,14 +30,9 @@ Python >= 2.8
 ## Installation
 
 ```bash
-git clone https://github.com/nbarrazae/Conecta2UBB.git
-cd Conecta2UBB
-cd backend
-python3 -m venv venv
-source venv/bin/activate    # o venv\Scripts\activate en Windows
-pip install -r requirements.txt
-python manage.py migrate   # modificar .env
-cd ../frontend
-npm install   # o yarn install
-npm run dev   # o npm start, preview
+pip install opencv-python
+pip install PySimpleGUI
+pip install numpy
+pip install pyserial
+python Reconocimiento de Objetos.py
 ```
